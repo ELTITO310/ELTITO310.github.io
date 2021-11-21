@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+html::-webkit-scrollbar-track {
+    background: #222;
+}
+html::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .5);
+}
+
+.home {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: #001220;
+}
+.home .texts {
+    margin-right: 50px;
+}
+.home .texts p {
+    font-size: 1.7rem;
+    color: rgba(255, 255, 255, .8);
+    font-weight: 700;
+    font-family: 'Unkempt', cursive;
+    transform: rotate(-2deg);
+}
+.home .texts h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Skranji', cursive;
+    transform: rotate(2deg);
+}
+.divider {
+    position: relative;
+    background: #001220;
+    height: 200px;
+}
+.divider svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.aboutme {
+    height: 70vh;
+    background: #5000ca;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.aboutme h1 {
+    font-size: 3.5rem;
+    font-family: 'Skranji', cursive;
+    width: 200px;
+    text-align: center;
+}
+.aboutme div {
+    width: 2px;
+    height: 80%;
+    background: #fff;
+}
+.aboutme p {
+    font-size: 1rem;
+    font-family: 'Unkempt', cursive;
+    width: 30%;
+}
+footer {
+    position: relative;
+    background: #000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .title {
+    text-align: center;
+    font-family: 'Skranji', cursive;
+    font-size: 0.8rem;
+    position: absolute;
+    top: -50px;
+    left: 20%;
+    transform: translateY(-80%);
+}
+footer .title a {
+    transition: .3s;
+}
+footer .title a:hover {
+    color: rgb(68, 68, 248);
+}
+footer a {
+    font-size: 2rem;
+    margin: 5px;
+    transition: .3s;
+}
+footer a:hover {
+    transform: skew(15deg) scale(1.2);
+}
+footer i {
+    color: rgba(68, 68, 248);
+}
